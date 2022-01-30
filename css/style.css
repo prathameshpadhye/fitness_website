@@ -51,10 +51,4 @@
     text-decoration: underline;
     color: rgb(96, 95, 98);
   }
-  .indcontainer {
-    color: white;
-    display: inline-block;
-    text-decoration: none;
-    padding: 30px;
-    border: 2px solid yellow;
-  }
+  
