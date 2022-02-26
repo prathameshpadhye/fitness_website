@@ -4,31 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Claculate</title>
+    <title>Calculate</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="img/titleIcon.png" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Source+Sans+Pro:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fitness.css">
     <style>
-      body {
+      .body {
         margin: 0px;
         padding: 0px;
         background: url(img/4.jpg);
-        font-family: 'IBM Plex Mono', monospace;
+        font-family: "IBM Plex Mono", monospace;
       }
-      .indcontainer {
-    color: white;
-    display: inline-block;
-    text-decoration: none;
-    padding: 30px;
-    border: 2px solid yellow;
-  }
-
-    </style>
+      </style>
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <!-- left div for logo -->
       <div class="left">
@@ -44,14 +40,25 @@
         </ul>
       </div>
       <!-- right div for button -->
+      <div id="empty"></div>
       <div class="right">
         <button class="btn">Email Us</button>
       </div>
     </header>
-    <div class="indcontainer">
-      <h1>
-        i am container
-      </h1>
-    </div>
+    <div class="outer">
+      <div class="indcontainer">
+          <input id="height">
+          <input id="weight">
+          <input type="submit" onclick="Myfunction()"q value="calculate">
+          <p id="demo"></p>
+        </div>
+        <div class="indcontainer">
+          <input id="height2">
+          <input id="waist_c">
+          <input type="submit" onclick="Myfunction2()"q value="calculate">
+          <p id="demo2"></p>
+        </div>
+      </div>
+      <script src="js/main.js"></script>
   </body>
 </html>
