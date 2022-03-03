@@ -1,14 +1,18 @@
-.indcontainer {
+.bmicontainer {
     color: white;
     display: inline-block;
     text-decoration: none;
-    padding: 15%;
+    padding: 10%;
     border: 5px solid white;
     border-radius: 50px;
-    /* margin-left: 5%; */
   }
-  .outer{
-    margin-left: 5%;
+  .whtrcontainer {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10%;
+    border: 5px solid white;
+    border-radius: 50px;
   }
   #empty{
     /* border: 5px solid white; */

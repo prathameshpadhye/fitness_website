@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculate</title>
+    <title>FitCal</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="img/titleIcon.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,18 +13,37 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Source+Sans+Pro:wght@300;400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/fitness.css" />
+    <link rel="stylesheet" href="style.css" />
     <style>
-      .body {
+      body {
         margin: 0px;
         padding: 0px;
         background: url(img/4.jpg);
         font-family: "IBM Plex Mono", monospace;
       }
+      .indcontainer {
+        border: 5px solid white;
+        width: 50%;
+        margin: auto auto;
+        padding: 50px;
+        border-radius: 50px;
+      }
+      .indcontainer h1 {
+        color: white;
+        text-align: center;
+      }
+      .indcontainer h3 {
+        color: white;
+        text-align: center;
+      }
+      .empty {
+        height: 150px;
+        width: 100%;
+        /* border: 5px solid white; */
+      }
     </style>
   </head>
-  <body class="body">
+  <body>
     <header class="header">
       <!-- left div for logo -->
       <div class="left">
@@ -40,39 +59,25 @@
         </ul>
       </div>
       <!-- right div for button -->
-      <div id="empty"></div>
       <div class="right">
         <button class="btn">Email Us</button>
       </div>
     </header>
-    <div class="bmicontainer">
-      <p>Calculate BMI</p>
-      <p>Enter your Height below(cm)</p>
-      <input id="height" />
-      <p>Enter Your Weight below(kg)</p>
-      <input id="weight" />
-      <input type="submit" onclick="calbmi()" q value="calculate" />
-      <p id="demo"></p>
-      <p id="bmicategory"></p>
+    <div class="indcontainer">
+      <h1>Routines For Slim Category</h1>
     </div>
-    <br />
-    <div class="whtrcontainer">
-      <p>WHtR</p>
-      <p>Choose Gender:</p>
-      <input type="radio" name="gender" id="male" />Male
-      <input type="radio" name="gender" id="female" />Female<br />
-      <p>Enter Age below(years):</p>
-      <input id="Age" />
-      <p>Enter your Height below(cm):</p>
-      <input id="height2" />
-      <p>Enter Your Waist Circumference below(cm):</p>
-      <input id="waist_c" />
-      <input type="submit" onclick="calwhtr(),rec_whtr()" q value="calculate" />
-      <p id="val_whtr"></p>
-      <p id="age_para"></p>
-      
-
+    <div class="empty"></div>
+    <div class="indcontainer">
+      <h3>1. A List of At-Home Workouts for Skinny People</h3>
     </div>
-    <script src="js/fitness.js"></script>
+    <div class="empty"></div>
+    <div class="indcontainer">
+      <h3>2. The Workout Plan All Skinny Guys Have Been Waiting For</h3>
+    </div>
+    <div class="empty"></div>
+    <div class="indcontainer">
+      <h3>Routines For Slim Category</h3>
+    </div>
+    <div class="empty"></div>
   </body>
 </html>
