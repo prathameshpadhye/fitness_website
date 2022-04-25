@@ -4,7 +4,7 @@
     position: absolute;
     left: 1%;
     top: 1%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
   .left img {
     width: 100px;
@@ -15,14 +15,15 @@
     width: 50%;
     margin: auto auto;
     font-size: large;
-    border: 5px solid yellow;
+    border: 5px solid white;
+    border-radius: 20px;
   }
   .right {
     position: absolute;
     right: 1%;
     top: 1%;
     display: inline-block;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
   }
   .btn{
     margin: 5px 10px;

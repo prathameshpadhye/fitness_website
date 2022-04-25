@@ -48,35 +48,35 @@ function rec_whtr() {
         var link = document.createTextNode("Go to recommendation page");
         a.appendChild(link);
         a.title = "This is Link";
-        a.href = "1slim.html";
+        a.href = "1slimmen.html";
         document.body.appendChild(a);
       } else if (whtr > 0.34 && whtr <= 0.42) {
         let a = document.createElement("a");
         var link = document.createTextNode("Go to recommendation page");
         a.appendChild(link);
         a.title = "This is Link";
-        a.href = "1slim.html";
+        a.href = "1slimmen.html";
         document.body.appendChild(a);
       } else if (whtr > 0.42 && whtr <= 0.52) {
         let a = document.createElement("a");
         var link = document.createTextNode("Go to recommendation page");
         a.appendChild(link);
         a.title = "This is Link";
-        a.href = "2normal.html";
+        a.href = "2normalmen.html";
         document.body.appendChild(a);
       } else if (whtr > 0.52 && whtr <= 0.57) {
         let a = document.createElement("a");
         var link = document.createTextNode("Go to recommendation page");
         a.appendChild(link);
         a.title = "This is Link";
-        a.href = "3overweight.html";
+        a.href = "3overweightmen.html";
         document.body.appendChild(a);
       } else if (whtr > 0.57 && whtr <= 0.62) {
         let a = document.createElement("a");
         var link = document.createTextNode("Go to recommendation page");
         a.appendChild(link);
         a.title = "This is Link";
-        a.href = "3overweight.html";
+        a.href = "3overweightmenwomen.html";
         document.body.appendChild(a);
       } else {
         let a = document.createElement("a");
@@ -93,42 +93,42 @@ function rec_whtr() {
         var link = document.createTextNode("Go to recommendation page");
         a.appendChild(link);
         a.title = "This is Link";
-        a.href = "1slim.html";
+        a.href = "1slimwomen.html";
         document.body.appendChild(a);
       } else if (whtr > 0.34 && whtr <= 0.41) {
         let a = document.createElement("a");
         var link = document.createTextNode("Go to recommendation page");
         a.appendChild(link);
         a.title = "This is Link";
-        a.href = "1slim.html";
+        a.href = "1slimwomen.html";
         document.body.appendChild(a);
       } else if (whtr > 0.41 && whtr <= 0.48) {
         let a = document.createElement("a");
         var link = document.createTextNode("Go to recommendation page");
         a.appendChild(link);
         a.title = "This is Link";
-        a.href = "2normal.html";
+        a.href = "2normalwomen.html";
         document.body.appendChild(a);
       } else if (whtr > 0.48 && whtr <= 0.53) {
         let a = document.createElement("a");
         var link = document.createTextNode("Go to recommendation page");
         a.appendChild(link);
         a.title = "This is Link";
-        a.href = "3overweight.html";
-        document.body.appendChild(a);
+        a.href = "3overweightwomen.html";
+        document.body.appendChild(a);teen
       } else if (whtr > 0.53 && whtr <= 0.57) {
         let a = document.createElement("a");
         var link = document.createTextNode("Go to recommendation page");
         a.appendChild(link);
         a.title = "This is Link";
-        a.href = "3overweight.html";
+        a.href = "3overweightwomen.html";
         document.body.appendChild(a);
       } else {
         let a = document.createElement("a");
         var link = document.createTextNode("Go to recommendation page");
         a.appendChild(link);
         a.title = "This is Link";
-        a.href = "3overweight.html";
+        a.href = "3overweightwomen.html";
         document.body.appendChild(a);
       }
     }
@@ -139,35 +139,35 @@ function rec_whtr() {
       var link = document.createTextNode("Go to recommendation page");
       a.appendChild(link);
       a.title = "This is Link";
-      a.href = "1slim.html";
+      a.href = "1slimteen.html";
       document.body.appendChild(a);
     } else if (whtr > 0.34 && whtr <= 0.45) {
       let a = document.createElement("a");
       var link = document.createTextNode("Go to recommendation page");
       a.appendChild(link);
       a.title = "This is Link";
-      a.href = "1slim.html";
+      a.href = "1slimteen.html";
       document.body.appendChild(a);
     } else if (whtr > 0.45 && whtr <= 0.51) {
       let a = document.createElement("a");
       var link = document.createTextNode("Go to recommendation page");
       a.appendChild(link);
       a.title = "This is Link";
-      a.href = "2normal.html";
+      a.href = "2normalteen.html";
       document.body.appendChild(a);
     } else if (whtr > 0.51 && whtr <= 0.64) {
       let a = document.createElement("a");
       var link = document.createTextNode("Go to recommendation page");
       a.appendChild(link);
       a.title = "This is Link";
-      a.href = "3overweight.html";
+      a.href = "3overweightteen.html";
       document.body.appendChild(a);
     } else {
       let a = document.createElement("a");
       var link = document.createTextNode("Go to recommendation page");
       a.appendChild(link);
       a.title = "This is Link";
-      a.href = "3overweight.html";
+      a.href = "3overweightteen.html";
       document.body.appendChild(a);
     }
   }
