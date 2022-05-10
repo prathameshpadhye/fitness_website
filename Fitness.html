@@ -22,6 +22,11 @@
         background: url(img/4.jpg);
         font-family: "IBM Plex Mono", monospace;
       }
+      .empty {
+        height: 150px;
+        width: 100%;
+        /* border: 5px solid white; */
+      }
     </style>
   </head>
   <body class="body">
@@ -45,8 +50,10 @@
         <button class="btn">Email Us</button>
       </div>
     </header>
-    <div class="bmicontainer">
-      <p>Calculate BMI</p>
+    <center>
+
+      <div class="bmicontainer">
+        <p>Calculate BMI</p>
       <p>Enter your Height below(cm)</p>
       <input id="height" />
       <p>Enter Your Weight below(kg)</p>
@@ -55,6 +62,7 @@
       <p id="demo"></p>
       <p id="bmicategory"></p>
     </div>
+  </center>
     <br />
     <div class="whtrcontainer">
       <p>WHtR</p>
@@ -71,8 +79,8 @@
       <p id="val_whtr"></p>
       <p id="age_para"></p>
       
-
+      
     </div>
-    <script src="js/fitness.js"></script>
+    <script src="js/fitness.js"></script> 
   </body>
 </html>
